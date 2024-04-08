@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <lin/cdn.jsdelivr.net/npm/book rel="stylesheet" href="">
+    <link rel="icon" href="/assests/music site favicon.webp">
+    <link rel="stylesheet" href="https:/tstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <title>Music Website Login</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+        .main{
+            display: flex;
+        }
+        /* login form */
+        section .left_bxl , .right_bxl{
+        /* position: relative; */
+        width: 50vw;
+        height: 100vh;
+        background: #0b1320;
+        display: flex;
+        overflow-y: hidden;
+        align-items: center;
+        justify-content:center;
+        }
+        section .left_bxl{
+        /* width: 35%; */
+        background: white;
+        box-shadow: 5px 0px 2px #090f1f;
+        }
+        section .left_bxl .content{
+        width: 50%;
+        height: auto;
+        padding: 25px 20px;
+        background: white;
+        border: none;
+        }
+        section .left_bxl .content .card{
+        width: 100%;
+        display:flex;
+        align-items:flex-start;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        }
+        section .left_bxl .content .card label{
+        font-size: 14px;
+        }
+        section .left_bxl .content .card input{
+        width: 100%;
+        padding: 6px 10px;
+        border: 1px solid rgb(154,154,154);
+        background: rgb(238, 238, 238);
+        margin-top: 5px;
+        }
+        section .left_bxl .content .submit{
+        margin-top: 30px;
+        padding: 8px 20ox;
+        color: white;
+        background: #111727;
+        width: 100%;
+        cursor: pointer; 
+        }
+        section .left_bxl .content .check{
+        display: flex;
+        align-items: center;
+        margin-top: 18px;
+        }
+        section .left_bxl .content .check span{
+        margin-left: 5px;
+        font-size: 13px;
+        }
+        section .left_bxl .content p{
+        margin-top: 90px;
+        text-align: center;
+        font-size: 13px;
+        }
+        section .left_bxl .content a{
+        text-decoration: none;
+        color:#36e2ec ;
+        font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <section class="main">
+        <div class="left_bxl">
+            <div class="content">
+                <form method="post">
+                    <h1>Login</h1>
+                    <div class="card">
+                        <label for="name">Name</label>
+                        <input type="text" name="user_name" placeholder="Enter your Username...">
+                    </div>
+                    <div class="card">
+                        <label for="Password">Password</label>
+                        <input type="text" name="user_password" placeholder="Enter your Password...">
+                    </div>
+                    <input type="submit" value="Login" class="submit">
+                    <div class="check">
+                        <input type="checkbox" name="" id=""><span>Remember Me.</span>
+                    </div>
+                    <p>Don't have a account yet? <a href="signup.html">
+                        Signup
+                    </a> </p>
+                </form>
+            </div>
+        </div>
+        <div class="right_bxl">
+            <img src="/assests/music site page 2.png" alt="" width="400px" class="image" height="200px">
+        </div>
+    </section>
+</body>
+</html>
